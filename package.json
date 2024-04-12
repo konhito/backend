@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "A backend ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "dev": "nodemon src/index.js"
   },
   "author": "konhito",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
